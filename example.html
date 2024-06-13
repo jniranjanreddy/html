@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, nav, main, footer {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        .example {
+            background-color: #f9f9f9;
+            padding: 5px;
+            border-left: 3px solid #007BFF;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The header section -->
+    <header>
+        <h1>HTML Tags Example</h1>
+        <p>This page demonstrates the use of various HTML tags for Niranjan.</p>
+    </header>
+
+    <!-- The navigation section -->
+    <nav>
+        <ul>
+            <li><a href="#content-sectioning">Content Sectioning</a></li>
+            <li><a href="#text-content">Text Content</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#metadata">Metadata</a></li>
+        </ul>
+    </nav>
+
+    <!-- The main content section -->
+    <main>
+        <!-- Content Sectioning -->
+        <section id="content-sectioning">
+            <h2>Content Sectioning</h2>
+            <article class="example">
+                <header>
+                    <h3>Header Example</h3>
+                </header>
+                <p>This is an article within a section. It contains its own header.</p>
+                <footer>Article Footer</footer>
+            </article>
+            <aside class="example">
+                <p>This is an aside, typically used for side content.</p>
+            </aside>
+        </section>
+
+        <!-- Text Content -->
+        <section id="text-content">
+            <h2>Text Content</h2>
+            <p>This is a paragraph. <strong>This text is strong.</strong> <em>This text is emphasized.</em></p>
+            <p>Line break example:<br>Text after line break.</p>
+            <hr>
+            <p>Horizontal rule above.</p>
+        </section>
+
+        <!-- Lists -->
+        <section id="lists">
+            <h2>Lists</h2>
+            <ul>
+                <li>Unordered list item</li>
+                <li>Another unordered list item</li>
+            </ul>
+            <ol>
+                <li>Ordered list item</li>
+                <li>Another ordered list item</li>
+            </ol>
+            <dl>
+                <dt>Term</dt>
+                <dd>Description of the term.</dd>
+            </dl>
+        </section>
+
+        <!-- Media -->
+        <section id="media">
+            <h2>Media</h2>
+            <figure>
+                <img src="example.jpg" alt="Example Image">
+                <figcaption>This is a caption for the image.</figcaption>
+            </figure>
+            <video controls>
+                <source src="example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="example.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <iframe src="https://www.example.com" title="Example Iframe"></iframe>
+        </section>
+
+        <!-- Tables -->
+        <section id="tables">
+            <h2>Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Footer 1</td>
+                        <td>Footer 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Forms -->
+        <section id="forms">
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Metadata -->
+        <section id="metadata">
+            <h2>Metadata</h2>
+            <p>Metadata tags are used in the head section to provide metadata about the HTML document, such as <code>&lt;meta&gt;</code> and <code>&lt;link&gt;</code>.</p>
+        </section>
+    </main>
+
+    <!-- The footer section -->
+    <footer>
+        <p>Footer content goes here.</p>
+    </footer>
+
+</body>
+</html>
