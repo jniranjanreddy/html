@@ -140,3 +140,114 @@ type: Specifies the type of <input> element to display.
 value: Specifies the initial value of an <input> element.
 width: Specifies the width of an <input> element (only for image inputs).
 ```
+```
+    1. Basic Document Structure
+<html> – Root element of an HTML page
+<head> – Contains metadata and links
+<body> – Main content of the webpage
+<title> – Title of the webpage
+<meta> – Metadata about the webpage
+<link> – Links external resources (like CSS)
+<style> – Internal CSS styles
+<script> – JavaScript code
+<noscript> – Alternative content for browsers without JavaScript
+2. Text Content & Formatting
+<h1> to <h6> – Headings (h1 is largest, h6 is smallest)
+<p> – Paragraph
+<br> – Line break
+<hr> – Horizontal rule (divider)
+<blockquote> – Block-level quotation
+<q> – Inline quotation
+<cite> – Citation of a work
+<code> – Inline code snippet
+<pre> – Preformatted text (respects spaces and line breaks)
+<abbr> – Abbreviation
+<address> – Contact information
+<b> – Bold text (without importance)
+<strong> – Strong importance (bold by default)
+<i> – Italic text (without importance)
+<em> – Emphasized text (italic by default)
+<u> – Underlined text
+<small> – Small text
+<mark> – Highlighted text
+<del> – Deleted text (strikethrough)
+<ins> – Inserted text (underline)
+<sub> – Subscript (e.g., H₂O)
+<sup> – Superscript (e.g., x²)
+<bdi> – Bi-directional text isolation
+<bdo> – Override text direction
+3. Lists & Navigation
+<ul> – Unordered list
+<ol> – Ordered list
+<li> – List item
+<dl> – Description list
+<dt> – Term in a description list
+<dd> – Description of the term
+4. Links & Anchors
+<a> – Hyperlink
+<nav> – Navigation section
+<area> – Clickable area in an image map
+<map> – Defines an image map
+<link> – External resource link (e.g., CSS)
+5. Tables
+<table> – Table
+<caption> – Table caption
+<tr> – Table row
+<th> – Table header
+<td> – Table cell
+<thead> – Table head section
+<tbody> – Table body section
+<tfoot> – Table footer section
+<colgroup> – Groups table columns
+<col> – Specifies column properties
+6. Forms & Inputs
+<form> – Form container
+<input> – Input field
+<label> – Label for an input field
+<textarea> – Multi-line text input
+<button> – Clickable button
+<select> – Dropdown list
+<option> – Dropdown option
+<optgroup> – Groups dropdown options
+<fieldset> – Groups form elements
+<legend> – Title for a fieldset
+<datalist> – Predefined input values
+<output> – Displays calculated result
+<progress> – Progress indicator
+<meter> – Measurement value
+7. Media Elements (Images, Audio, Video)
+<img> – Image
+<audio> – Audio file
+<video> – Video file
+<source> – Alternative media source
+<track> – Subtitles and captions for video
+<picture> – Responsive images
+<figcaption> – Caption for an image
+<figure> – Groups media with captions
+8. Semantic HTML (Page Structure & Layout)
+<header> – Page or section header
+<footer> – Page or section footer
+<main> – Main content of the document
+<section> – Thematic section of content
+<article> – Independent content unit
+<aside> – Sidebar content
+<summary> – Summary for <details>
+<details> – Expandable/collapsible content
+<dialog> – Dialog box (modal)
+<mark> – Highlighted text
+9. Interactive & Embedded Content
+<iframe> – Embed another webpage
+<embed> – Embed external content
+<object> – Embed an external object
+<param> – Parameters for embedded objects
+<canvas> – Graphics with JavaScript
+<svg> – Scalable Vector Graphics
+<math> – Mathematical expressions
+10. Scripting & Data Storage
+<script> – JavaScript code
+<noscript> – Content if JavaScript is disabled
+<template> – Reusable content template
+<slot> – Placeholder for web components
+<shadow> – Shadow DOM content
+
+```
