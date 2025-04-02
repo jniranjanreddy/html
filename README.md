@@ -4,8 +4,23 @@ Emojis - winkey+;
 ```
 ![alt text](https://github.com/jniranjanreddy/html/blob/main/unicode.JPG)
 
-<<<<<<< HEAD
+
 ```
+In HTML - all are called elements
+
+html --> elements --> UI Components
+button
+Image
+Input
+Table
+
+Tag - is a for format for html element
+
+
+
+
+
+
 Tags
 
 element = start tag + Content + close tah
